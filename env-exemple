@@ -1,0 +1,24 @@
+# non utilisateur au choix
+VITE_USER=phenix
+# mot de passe utilisateur au choix
+VITE_PASSWORD=xxxxxxxxxxxxxxxxxxxx
+# FOR = front ordi / FPI = front pi
+VITE_FRONT_TYPE=FOR
+# NFCLO = serveur nfc local
+VITE_MODE_NFC=NFCLO
+# serveur cashless
+VITE_URL=https://demo.cashless.tibillet.localhost
+# token websocket, donné dans le code (pour le moment) source du cashless (assets lecteur_nfc.js)
+VITE_TOKEN=;b2yuM5454@4!cd
+# type lecteur nfc
+VITE_HARDWARE_NFC=acr122u-u9
+# ip front
+VITE_IP_LOCAL=192.168.1.4
+# en attente
+VITE_DEMO=false
+# tagId pour une démo
+VITE_DEMO_TAGID_CM=12345678
+VITE_DEMO_TAGID_CLIENT1=12345679
+VITE_DEMO_TAGID_CLIENT2=12345610
+# port serveur dev front
+VITE_NFC_PORT_SERVER=3000
